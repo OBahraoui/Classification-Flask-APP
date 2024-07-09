@@ -32,7 +32,7 @@ class ConvNet(nn.Module):
 
 model = ConvNet()
 
-PATH = "cifar10_ffn.pth"
+PATH = "app/cifar10_ffn.pth"
 model.load_state_dict(torch.load(PATH))
 model.eval()
  # image -> tensor
