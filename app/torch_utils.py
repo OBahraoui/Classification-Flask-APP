@@ -2,11 +2,9 @@ import io
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
-import numpy as np
 from PIL import Image
 import torch.nn.functional as F
 import torchvision
-import matplotlib.pyplot as plt
 import numpy as np
 
  # load model
